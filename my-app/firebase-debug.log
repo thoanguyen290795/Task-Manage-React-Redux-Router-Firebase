@@ -1,0 +1,30 @@
+[debug] [2020-03-31T11:00:59.320Z] ----------------------------------------------------------------------
+[debug] [2020-03-31T11:00:59.322Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-03-31T11:00:59.322Z] CLI Version:   7.16.2
+[debug] [2020-03-31T11:00:59.323Z] Platform:      darwin
+[debug] [2020-03-31T11:00:59.323Z] Node Version:  v13.1.0
+[debug] [2020-03-31T11:00:59.324Z] Time:          Tue Mar 31 2020 14:00:59 GMT+0300 (Eastern European Summer Time)
+[debug] [2020-03-31T11:00:59.324Z] ----------------------------------------------------------------------
+[debug] [2020-03-31T11:00:59.324Z] 
+[debug] [2020-03-31T11:00:59.331Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-31T11:00:59.331Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/thoanguyen/Desktop/React Zendvn/Firebase/Task Manager/my-app
+
+[debug] [2020-03-31T18:34:12.561Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:71:28)
+    at Interface._setRawMode (readline.js:277:16)
+    at Interface.close (readline.js:400:10)
+    at ReadStream.ontermend (readline.js:187:10)
+    at ReadStream.emit (events.js:215:7)
+    at ReadStream.EventEmitter.emit (domain.js:478:20)
+    at endReadableNT (_stream_readable.js:1199:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
